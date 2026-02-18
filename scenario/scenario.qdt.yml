@@ -27,10 +27,8 @@ steps:
   - name: Télécharger les profils depuis le dépôt Git
     uses: qprofiles-downloader
     with:
-      protocol: git_local
-      #le chemin de la source prend déjà en compte l'emplacement de lancement du script
-      #donc pour une exécution en tâche planifiée, ne pas écrire %USERPROFILE% en début de chemin puisque l'exécution se fait de là
-      source: "file://Opale Energies Naturelles\\Carto - SIG\\0_RESSOURCES\\2_LOGICIELS\\QGIS\\QDT\\qdt-profils-scenario"
+      protocol: git_remote
+      source: https://github.com/Opale-en/qdt-profils-scenario-open
       branch: main
 
   - name: Synchronise les profils locaux avec les profils téléchargés
