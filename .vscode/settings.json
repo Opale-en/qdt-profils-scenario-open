@@ -1,0 +1,85 @@
+{
+    // Editor
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.rulers": [
+        100
+    ],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.hg/store/**": true,
+        "**/.venv/**": true
+    },
+    // Git
+    "git.allowNoVerifyCommit": true,
+    "git.autoStash": true,
+    "git.fetchOnPull": true,
+    "git.mergeEditor": true,
+    "git.pruneOnFetch": true,
+    "git.pullBeforeCheckout": true,
+    "git.rebaseWhenSync": true,
+    "git.replaceTagsWhenPull": true,
+    "git.repositoryScanIgnoredFolders": [
+        "node_modules",
+        ".venv",
+        ".cache",
+        "build"
+    ],
+    "git.smartCommitChanges": "tracked",
+    "git.enableStatusBarSync": true,
+    // JSON
+    "[json]": {
+        "editor.formatOnSave": true,
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "files.trimFinalNewlines": false,
+        "files.insertFinalNewline": true
+    },
+    // Python
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvironment": true,
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.rulers": [
+            88
+        ],
+        "editor.wordWrapColumn": 88,
+    },
+    // YAML
+    "[yaml]": {
+        "editor.autoIndent": "keep",
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    },
+    // Extensions
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/refs/heads/main/docs/schemas/scenario/qdt_scenario.json": [
+            "**/*scenario*qdt.yml",
+            "tests/fixtures/scenarios/*.qdt.yml",
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+# -- QDT usual patterns --
+
+# Common
+!.gitkeep
+*.log
+__pycache__/
+
+# QGIS Profiles
+profiles/*/bookmarks.xml
+profiles/*/composer_templates/
+profiles/*/console_history.txt
+profiles/*/fonts/
+profiles/*/gdal_pam/
+profiles/*/oauth2-cache/
+profiles/*/palettes/couls.gpl
+profiles/*/previewImages/
+profiles/*/proj
+profiles/*/processing/
+profiles/*/project_templates/
+profiles/*/python/expressions/
+profiles/*/python/plugins/
+profiles/*/QGIS/QGIS3.ini.oYPRPK
+profiles/*/themes/
+*.db
+*.qmldb
+*.*~

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 245.46 242.44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Dégradé_sans_nom_5);
+        fill-rule: evenodd;
+        stroke: #c4a000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: #f0e64a;
+      }
+
+      .cls-3 {
+        fill: url(#Dégradé_sans_nom_2);
+      }
+
+      .cls-4 {
+        fill: url(#Dégradé_sans_nom);
+      }
+
+      .cls-5 {
+        fill: #ee7913;
+      }
+
+      .cls-6 {
+        fill: rgba(255, 255, 255, .17);
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom" data-name="Dégradé sans nom" x1="195.6" y1="-2.76" x2="191.99" y2="235.02" gradientTransform="translate(0 236) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#589632"/>
+      <stop offset="1" stop-color="#93b023"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_2" data-name="Dégradé sans nom 2" x1="124.76" y1="-6.47" x2="121.17" y2="229.32" gradientTransform="translate(0 236) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#589632"/>
+      <stop offset="1" stop-color="#93b023"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_5" data-name="Dégradé sans nom 5" x1="35.91" y1="42.42" x2="57.66" y2="13.41" gradientTransform="translate(0 228) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fef5af"/>
+      <stop offset=".2" stop-color="#fbe741"/>
+      <stop offset=".71" stop-color="#fbe21e"/>
+      <stop offset="1" stop-color="#e3ca04"/>
+    </linearGradient>
+  </defs>
+  <g id="icone_qgis">
+    <path class="cls-5" d="M132.42,126.65h34.44l-29.15-28.82h-35.71v34.31l30.42,30.32v-35.81Z"/>
+    <path class="cls-4" d="M242.88,201.8l-61.44-60.74h-34.61v35.76l58.88,58.68h37.17v-33.7Z"/>
+    <path class="cls-2" d="M146.83,141.06h34.61l-14.57-14.41h-34.44v35.81l14.4,14.36v-35.76Z"/>
+    <path class="cls-3" d="M139.64,189.05c-5.22,1.2-10.64,1.85-16.24,1.85-40.03,0-74.07-32.91-74.07-75.59S83,40.44,123.4,40.44s72.57,32.19,72.57,74.87c0,6.94-.86,13.62-2.46,19.94l37.05,37.04c9.55-16.74,14.9-36.2,14.9-57.27C245.46,49.25,192.96,0,122.66,0S.18,48.93.18,115.03s52.49,116.32,122.48,116.32c18.07,0,34.95-3.32,50.08-9.37l-33.09-32.93Z"/>
+    <path class="cls-6" d="M102.01,97.83l140.87,137.67v-33.7l-61.44-60.74-14.57-14.41-29.15-28.82h-35.71Z"/>
+  </g>
+  <g id="settings">
+    <path class="cls-1" d="M38.58,162.46v14.35c-.76.27-1.52.58-2.24.92l-10.14-10.14-11.98,11.98,10.14,10.14c-.34.72-.65,1.48-.92,2.24h-14.35v16.85h14.35c.27.75.59,1.52.92,2.24l-10.14,10.14,11.98,11.98,10.14-10.14c.72.34,1.48.65,2.24.92v14.35h16.85v-14.35c.76-.27,1.52-.58,2.24-.92l10.14,10.14,11.98-11.98-10.14-10.14c.34-.72.65-1.48.92-2.24h14.35v-16.85h-14.35c-.27-.76-.58-1.52-.92-2.24l10.14-10.14-11.98-11.98-10.14,10.14c-.72-.34-1.48-.65-2.24-.92v-14.35h-16.85ZM47,190.24c5.59,0,10.14,4.54,10.14,10.14s-4.54,10.14-10.14,10.14-10.14-4.54-10.14-10.14,4.54-10.14,10.14-10.14Z"/>
+  </g>
+</svg>

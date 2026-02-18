@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256">
+  <!-- Generator: Adobe Illustrator 30.1.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 136)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7 {
+        stroke-linejoin: round;
+      }
+
+      .st0, .st2 {
+        stroke: #969696;
+      }
+
+      .st0, .st2, .st6 {
+        stroke-width: .5px;
+      }
+
+      .st0, .st4, .st5, .st7 {
+        stroke-linecap: round;
+      }
+
+      .st0, .st8, .st6 {
+        fill: #e6e6e6;
+      }
+
+      .st9 {
+        fill: #f0e64a;
+      }
+
+      .st1 {
+        fill: none;
+        stroke: #fcffff;
+      }
+
+      .st1, .st3 {
+        stroke-width: 2px;
+      }
+
+      .st1, .st3, .st10, .st5 {
+        isolation: isolate;
+      }
+
+      .st1, .st5 {
+        opacity: .5;
+      }
+
+      .st11 {
+        fill: url(#Dégradé_sans_nom_8);
+      }
+
+      .st11, .st8 {
+        fill-rule: evenodd;
+        stroke: #9a9a9a;
+      }
+
+      .st12 {
+        fill: url(#Dégradé_sans_nom_2);
+      }
+
+      .st2 {
+        fill: #969696;
+      }
+
+      .st2, .st6 {
+        stroke-linecap: square;
+      }
+
+      .st3 {
+        fill-opacity: .6;
+        opacity: .2;
+        stroke: #000;
+      }
+
+      .st13 {
+        fill: url(#Dégradé_sans_nom);
+      }
+
+      .st14 {
+        fill: #fff;
+        fill-opacity: .2;
+      }
+
+      .st15 {
+        fill: #ee7913;
+      }
+
+      .st4 {
+        fill: #505050;
+        stroke: #505050;
+      }
+
+      .st4, .st5, .st7 {
+        stroke-width: .7px;
+      }
+
+      .st16 {
+        display: none;
+      }
+
+      .st5, .st7 {
+        fill: #fce94f;
+        stroke: #8b7617;
+      }
+
+      .st6 {
+        stroke: #e6e6e6;
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom" data-name="Dégradé sans nom" x1="200.8" y1="7.5" x2="197.2" y2="245.3" gradientTransform="translate(0 256.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#589632"/>
+      <stop offset="1" stop-color="#93b023"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_2" data-name="Dégradé sans nom 2" x1="129.9" y1="3.8" x2="126.4" y2="239.6" gradientTransform="translate(0 256.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#589632"/>
+      <stop offset="1" stop-color="#93b023"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_8" data-name="Dégradé sans nom 8" x1="22.2" y1="45.7" x2="77.4" y2="45.7" gradientTransform="translate(0 256.5) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b7b7b7"/>
+      <stop offset="1" stop-color="#e6e6e6"/>
+    </linearGradient>
+  </defs>
+  <g id="icone_x5F_qgis">
+    <path class="st15" d="M137.6,136.9h34.4l-29.1-28.8h-35.7v34.3l30.4,30.3v-35.8Z"/>
+    <path class="st13" d="M248.1,212l-61.4-60.7h-34.6v35.8l58.9,58.7h37.2v-33.7Z"/>
+    <path class="st9" d="M152,151.3h34.6l-14.6-14.4h-34.4v35.8l14.4,14.4v-35.8Z"/>
+    <path class="st12" d="M144.8,199.3c-5.2,1.2-10.6,1.9-16.2,1.9-40,0-74.1-32.9-74.1-75.6s33.7-74.9,74.1-74.9,72.6,32.2,72.6,74.9-.9,13.6-2.5,19.9l37,37c9.6-16.7,14.9-36.2,14.9-57.3,0-65.8-52.5-115-122.8-115S5.4,59.2,5.4,125.3s52.5,116.3,122.5,116.3,35-3.3,50.1-9.4l-33.1-32.9Z"/>
+    <path class="st14" d="M107.2,108.1l140.9,137.7v-33.7l-61.4-60.7-14.6-14.4-29.1-28.8h-35.7Z"/>
+  </g>
+  <g id="crayon">
+    <g class="st10">
+      <path class="st4" d="M10.6,214.9l25.9,15-31,22.4,5-37.4Z"/>
+      <path class="st7" d="M53,141.4l25.9,15-42.4,73.5-25.9-15,42.4-73.5Z"/>
+      <path class="st1" d="M61.3,152l-37.5,64.9"/>
+      <path class="st3" d="M70,156.9l-37.5,64.9"/>
+      <path class="st5" d="M67.8,155.7l-39.9,69.2"/>
+      <path class="st2" d="M12.2,245.8l21-16.4-8.6-5-12.3,21.4Z"/>
+      <path class="st5" d="M57,149.5l-39.9,69.2"/>
+      <g>
+        <path class="st0" d="M54.8,136l27.9,16.1-5.4,9.4-27.9-16.1,5.4-9.4Z"/>
+        <path class="st6" d="M8.6,244.6l4.1-27,8.6,5-12.7,22.1Z"/>
+      </g>
+    </g>
+  </g>
+  <g id="carte" class="st16">
+    <g>
+      <path class="st11" d="M98.1,248.8H16.4c-4,0-7.9-5.7-8-10v-65.9h89.7v75.9Z"/>
+      <path class="st8" d="M24.4,170.7c-4-4-12-4-16,0v61.4c4-4,12-4,16,0v-61.4Z"/>
+    </g>
+  </g>
+</svg>

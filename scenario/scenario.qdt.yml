@@ -1,0 +1,80 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/refs/heads/main/docs/schemas/scenario/qdt_scenario.json
+
+# This is a sample of a YAML file for the QGIS Deployment Toolbelt scenario.
+# For now, it's more a roadmap than a real description of what it's implemented.
+
+metadata:
+  title: "Scenario déploiement de QDT pour tout Opale"
+  id: qdt-scenario-opale
+  description: Déploiement des profils QGIS à Opale avec QDT.
+
+settings:
+  DEBUG: false
+  SCENARIO_VALIDATION: true
+
+steps:
+  - name: Trouver l'exécutable de QGIS à utiliser (notamment pour les raccourcis)
+    uses: qgis-installation-finder
+    with:
+      search_paths:
+        - "%PROGRAMFILES%\\QGIS"
+      version_priority:
+        - "3.40.12"
+        - "3.34"
+        - "3.44"
+        - "3.42"
+
+  - name: Télécharger les profils depuis le dépôt Git
+    uses: qprofiles-downloader
+    with:
+      protocol: git_local
+      #le chemin de la source prend déjà en compte l'emplacement de lancement du script
+      #donc pour une exécution en tâche planifiée, ne pas écrire %USERPROFILE% en début de chemin puisque l'exécution se fait de là
+      source: "file://Opale Energies Naturelles\\Carto - SIG\\0_RESSOURCES\\2_LOGICIELS\\QGIS\\QDT\\qdt-profils-scenario"
+      branch: main
+
+  - name: Synchronise les profils locaux avec les profils téléchargés
+    uses: qprofiles-synchronizer
+    with:
+      sync_mode: overwrite #only_new_version
+
+  - name: Télécharger les plugins référencés dans les profils
+    uses: qplugins-downloader
+    with:
+      force: false
+      threads: 5
+
+  - name: Synchronise les plugins locaux avec les plugins téléchargés
+    uses: qplugins-synchronizer
+    with:
+      action: create_or_restore
+      profile_ref: installed
+
+  - name: Créer les raccourcis pour chaque profil
+    uses: shortcuts-manager
+    with:
+      action: create_or_restore
+      include:
+        - profile: Opale Admin
+          label: "QGIS - administration"
+          desktop: true
+          start_menu: true
+        - profile: Opale Édition
+          label: "QGIS - édition"
+          desktop: true
+          start_menu: true
+        - profile: Opale Consultation
+          label: "QGIS - consultation"
+          desktop: true
+          start_menu: true
+
+  - name: Set splash screen
+    uses: splash-screen-manager
+    with:
+      action: create_or_restore
+      strict: false
+
+  - name: Set default profile
+    uses: default-profile-setter
+    with:
+      profile: Opale Consultation

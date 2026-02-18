@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "DavidAnson.vscode-markdownlint",
+        "eriklynd.json-tools",
+        "MS-CEINTL.vscode-language-pack-fr",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "ms-python.isort",
+        "redhat.vscode-yaml",
+        "bierner.markdown-mermaid"
+    ]
+}
