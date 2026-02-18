@@ -10,6 +10,15 @@ settings:
   SCENARIO_VALIDATION: true
 
 steps:
+  - name: Set environment variables
+    uses: manage-env-vars
+    with:
+      - name: SIG_RESOURCES_FOLDER
+        action: "add"
+        scope: "user"
+        value: "%USERPROFILE%\\Opale Energies Naturelles\\Carto - SIG\\0_RESSOURCES"
+        value_type: path
+
   - name: Trouver l'exécutable de QGIS à utiliser (notamment pour les raccourcis)
     uses: qgis-installation-finder
     with:
