@@ -8,12 +8,12 @@ metadata:
 settings:
   DEBUG: false
   SCENARIO_VALIDATION: true
-
+#vars
 steps:
   - name: Set environment variables
     uses: manage-env-vars
     with:
-      - name: SIG_RESOURCES_FOLDER
+      - name: SIG_RESOURCES_FOLDER#
         action: "add"
         scope: "user"
         value: "%USERPROFILE%/Opale Energies Naturelles/Carto - SIG/0_RESSOURCES"
