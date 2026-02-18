@@ -54,7 +54,7 @@ steps:
           label: "QGIS - administration"
           desktop: true
           start_menu: true
-        - profile: Opale Édition
+        - profile: Opale Edition
           label: "QGIS - édition"
           desktop: true
           start_menu: true

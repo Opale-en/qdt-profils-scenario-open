@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/main/docs/schemas/profile/qgis_profile.json",
-    "name": "Opale Édition",
+    "name": "Opale Edition",
     "folder_name": "opale_edition",
     "description": "profil pour l'\u00e9dition de donn\u00e9es",
     "author": "Pierre VIVET",
