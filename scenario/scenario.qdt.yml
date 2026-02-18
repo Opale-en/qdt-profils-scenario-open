@@ -1,8 +1,5 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/refs/heads/main/docs/schemas/scenario/qdt_scenario.json
 
-# This is a sample of a YAML file for the QGIS Deployment Toolbelt scenario.
-# For now, it's more a roadmap than a real description of what it's implemented.
-
 metadata:
   title: "Scenario déploiement de QDT pour tout Opale"
   id: qdt-scenario-opale
@@ -28,13 +25,13 @@ steps:
     uses: qprofiles-downloader
     with:
       protocol: git_remote
-      source: https://github.com/Opale-en/qdt-profils-scenario-open
+      source: https://github.com/Opale-en/qdt-profils-scenario-open.git
       branch: main
 
   - name: Synchronise les profils locaux avec les profils téléchargés
     uses: qprofiles-synchronizer
     with:
-      sync_mode: overwrite #only_new_version
+      sync_mode: overwrite
 
   - name: Télécharger les plugins référencés dans les profils
     uses: qplugins-downloader
