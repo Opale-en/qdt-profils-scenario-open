@@ -18,6 +18,11 @@ steps:
         scope: "user"
         value: "%USERPROFILE%/Opale Energies Naturelles/Carto - SIG/0_RESSOURCES"
         value_type: path
+      - name: PYQGIS_STARTUP
+        action: "add"
+        scope: "user"
+        value: "%USERPROFILE%/Opale Energies Naturelles/Carto - SIG/0_RESSOURCES/2_LOGICIELS/QGIS/startup.py"
+        value_type: path
 
   - name: Trouver l'exécutable de QGIS à utiliser (notamment pour les raccourcis)
     uses: qgis-installation-finder
@@ -25,10 +30,10 @@ steps:
       search_paths:
         - "%PROGRAMFILES%\\QGIS"
       version_priority:
+        - "3.44.8"
         - "3.40.12"
-        - "3.34"
-        - "3.44"
         - "3.42"
+        - "3.36"
 
   - name: Télécharger les profils depuis le dépôt Git
     uses: qprofiles-downloader
