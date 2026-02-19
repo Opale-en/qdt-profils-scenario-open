@@ -18,11 +18,11 @@ steps:
         scope: "user"
         value: "%USERPROFILE%/Opale Energies Naturelles/Carto - SIG/0_RESSOURCES"
         value_type: path
-      - name: PYQGIS_STARTUP
-        action: "add"
-        scope: "user"
-        value: "%USERPROFILE%/Opale Energies Naturelles/Carto - SIG/0_RESSOURCES/2_LOGICIELS/QGIS/startup.py"
-        value_type: path
+  #      - name: PYQGIS_STARTUP
+  #        action: "add"
+  #        scope: "user"
+  #        value: "%USERPROFILE%/Opale Energies Naturelles/Carto - SIG/0_RESSOURCES/2_LOGICIELS/QGIS/startup.py"
+  #        value_type: path
 
   - name: Trouver l'exécutable de QGIS à utiliser (notamment pour les raccourcis)
     uses: qgis-installation-finder
