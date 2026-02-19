@@ -5,19 +5,9 @@ from pathlib import Path
 from getpass import getuser
 from socket import gethostname
 
-# PyQGIS
-try:
-    from qgis.core import QgsApplication
-    from qgis.utils import plugin_times
-
-    IS_PYQGIS_LOADED: bool = True
-except ImportError as err:
-    logging.error(f"QGIS and its API are not available. Trace: {err}")
-    IS_PYQGIS_LOADED: bool = False
-
 # -- GLOBALS
 log_filepath = (
-    Path.home() / f".qgis/monitoring/qgis_launches_{gethostname()}_{getuser()}.log"
+    Path.home() / f"Opale Energies Naturelles/Carto - SIG/0_RESSOURCES/2_LOGICIELS/QGIS/startup_logs/qgis_launches_{gethostname()}_{getuser()}.log"
 )
 log_filepath.parent.mkdir(parents=True, exist_ok=True)
 
@@ -34,9 +24,17 @@ logging.basicConfig(
     ],
 )
 
-# -- EXécution
+# -- Starting
 logging.info("-" * 80)
-logging.info("QGIS Started")
+
+# Loading PyQGIS
+try:
+    from qgis.core import QgsApplication
+    #from qgis.utils import plugin_times
+    IS_PYQGIS_LOADED: bool = True
+except ImportError as err:
+    logging.error(f"QGIS and its API are not available. Trace: {err}")
+    IS_PYQGIS_LOADED: bool = False
 
 if IS_PYQGIS_LOADED:
     profile_path: Path = Path(QgsApplication.qgisSettingsDirPath())
@@ -44,5 +42,8 @@ if IS_PYQGIS_LOADED:
     # par contre, impossible d'obtenir le temps de chargement des plugins
     # car ils sont chargés après l'exécution du script startup dans
     # la séquence de démarrage
-    for k, v in plugin_times.items():
-        logging.info(f"Plugin: {k} - Load time: {v:.3f} seconds")
+    #for k, v in plugin_times.items():
+    #    logging.info(f"Plugin: {k} - Load time: {v:.3f} seconds")
+
+# -- QGIS starts
+logging.info("QGIS Started")
