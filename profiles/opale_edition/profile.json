@@ -22,14 +22,14 @@
             "folder_name": "kmltools",
             "official_repository": true,
             "plugin_id": 1536,
-            "version": "3.2.3"
+            "version": "3.2.4"
         },
         {
             "name": "Lat Lon Tools",
             "folder_name": "latlontools",
             "official_repository": true,
             "plugin_id": 1035,
-            "version": "3.7.4"
+            "version": "3.7.5"
         },
         {
             "name": "Processing Saga NextGen Provider",
@@ -43,21 +43,21 @@
             "folder_name": "qfieldsync",
             "official_repository": true,
             "plugin_id": 1083,
-            "version": "v4.17.3"
+            "version": "4.19.0"
         },
         {
             "name": "Selection as Filter",
             "folder_name": "SelectionFilter",
             "official_repository": true,
             "plugin_id": 3084,
-            "version": "1.0"
+            "version": "2.0"
         },
         {
             "name": "Send2GE",
             "folder_name": "send2google_earth",
             "official_repository": true,
             "plugin_id": 378,
-            "version": "0.4.0"
+            "version": "1.0.1"
         },
         {
             "name": "Serval",
@@ -67,18 +67,11 @@
             "version": "3.32.0"
         },
         {
-            "name": "Spreadsheet Layers",
-            "folder_name": "SpreadsheetLayers",
-            "official_repository": true,
-            "plugin_id": 766,
-            "version": "2.1.2"
-        },
-        {
             "name": "Street View",
             "folder_name": "StreetView",
             "official_repository": true,
             "plugin_id": 488,
-            "version": "3.3"
+            "version": "4.4"
         },
         {
             "name": "Value Tool",

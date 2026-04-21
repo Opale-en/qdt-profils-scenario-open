@@ -15,7 +15,7 @@
             "folder_name": "BivariateRenderer",
             "official_repository": true,
             "plugin_id": 2496,
-            "version": "1.2.0"
+            "version": "1.3.1"
         },
         {
             "name": "Geometry Paster",
@@ -36,14 +36,14 @@
             "folder_name": "kmltools",
             "official_repository": true,
             "plugin_id": 1536,
-            "version": "3.2.3"
+            "version": "3.2.4"
         },
         {
             "name": "Lat Lon Tools",
             "folder_name": "latlontools",
             "official_repository": true,
             "plugin_id": 1035,
-            "version": "3.7.4"
+            "version": "3.7.5"
         },
         {
             "name": "OrfeoToolbox Provider",
@@ -71,21 +71,21 @@
             "folder_name": "qfieldsync",
             "official_repository": true,
             "plugin_id": 1083,
-            "version": "v4.18.0"
+            "version": "4.19.0"
         },
         {
             "name": "Selection as Filter",
             "folder_name": "SelectionFilter",
             "official_repository": true,
             "plugin_id": 3084,
-            "version": "1.0"
+            "version": "2.0"
         },
         {
             "name": "Send2GE",
             "folder_name": "send2google_earth",
             "official_repository": true,
             "plugin_id": 378,
-            "version": "0.4.0"
+            "version": "1.0.1"
         },
         {
             "name": "Serval",
@@ -106,7 +106,7 @@
             "folder_name": "StreetView",
             "official_repository": true,
             "plugin_id": 488,
-            "version": "3.3"
+            "version": "4.4"
         },
         {
             "name": "Value Tool",
